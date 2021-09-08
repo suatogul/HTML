@@ -20,25 +20,100 @@
         <fieldset>
           <legend>Personal Information</legend>
           <form id="forminfo" action="">
-            <label for="firstname">Firstname</label></br>
-            <input type="text" class="forinput" placeholder="Please enter your firstname!" /></br></br>
-            <label for="lastname">Lastname</label></br>
-            <input type="text" class="forinput" placeholder="Please enter your lastname!" /></br></br>
-            <label for="lastname">Email</label></br>
-            <input type="email" class="forinput" placeholder="Please enter your email!" /></br></br>
-            <label for="lastname">Gender</label></br>
-            <input type="radio" class="forinput" name="gender"/>Male</br>
-            <input type="radio" class="forinput" name="gender"/>Female</br></br> 
-            <label for="lastname">Phone</label></br>
-            <input type="tel" class="forinput" placeholder="Please enter your phone number!" /></br></br>
-            <label for="lastname">Graduation</label></br>
+            <label for="firstname">Firstname</label><br />
+            <input
+              type="text"
+              class="forinput"
+              placeholder="Please enter your firstname!"
+            /><br /><br />
+            <label for="lastname">Lastname</label><br />
+            <input
+              type="text"
+              class="forinput"
+              placeholder="Please enter your lastname!"
+            /><br />
+            <label for="lastname">Email</label><br />
+            <input
+              type="email"
+              class="forinput"
+              placeholder="Please enter your email!"
+            /><br /><br />
+            <label for="lastname">Gender</label><br />
+            <input type="radio" class="forinput" name="gender" />Male<br />
+            <input
+              type="radio"
+              class="forinput"
+              name="gender"
+            />Female<br /><br />
+            <label for="lastname">Phone</label><br />
+            <input
+              type="tel"
+              class="forinput"
+              placeholder="Please enter your phone number!"
+            /><br /><br />
+            <label for="lastname">Graduation</label><br />
             <select id="Graduation" name="graduation" size="4">
-                <option value="01" class="graopt">PhD</option>
-                <option value="02" class="graopt">Master</option>
-                <option value="03" class="graopt">Bachelor</option>
-                <option value="04" class="graopt">Association</option>
-            </select></br></br>
+              <option value="01" class="graopt">PhD</option>
+              <option value="02" class="graopt">Master</option>
+              <option value="03" class="graopt">Bachelor</option>
+              <option value="04" class="graopt">Association</option></select
+            ><br /><br />
+            <label for="lastname">What do you expect from this course?</label
+            ><br />
+            <textarea
+              name="expectation"
+              id="expect"
+              cols="70"
+              rows="10"
+            ></textarea
+            ><br /><br />
+            <label for="lastname">Why do you want to learn programming?</label
+            ><br />
+            <textarea
+              name="programming"
+              id="program"
+              cols="70"
+              rows="10"
+            ></textarea
+            ><br />
           </form>
+        </fieldset>
+      </div>
+      <div id="marriege">
+        <fieldset>
+          <legend>Family Members</legend>
+          <label for="lastname">Are you married?</label><br />
+          <input type="radio" class="marry" name="married" />Yes<br />
+          <input type="radio" class="marry" name="married" />No<br />
+          <label for="lastname"
+            >If you married, how many child do you have?</label
+          ><br />
+          <input
+            type="number"
+            class="forinput"
+            placeholder="Enter number of children!"
+          />
+        </fieldset>
+      </div>
+      <div>
+        <fieldset>
+          <legend>Confirmation and Application</legend>
+          <label for="lastname">Which ones are you familiar with?</label><br />
+          <div>
+            <input type="checkbox" class="programs" /> HTML<br />
+            <input type="checkbox" class="programs" /> CSS <br />
+            <input type="checkbox" class="programs" /> Bootstrap<br />
+            <input type="checkbox" class="programs" /> JavaScript<br />
+            <input type="checkbox" class="programs" /> NodeJS<br />
+            <input type="checkbox" class="programs" /> ReactJS<br />
+          </div>
+          <label for="cv">Add your CV</label><br />
+          <input type="file" class="document" /><br />
+          <input type="checkbox" /> Please confirm by ticking the box after
+          reading the
+          <a href="https://" target="_blank">privacy terms and conditions</a
+          >&excl;<br />
+          <button type="submit" id="btnsubmit">submit</button>
         </fieldset>
       </div>
     </main>
