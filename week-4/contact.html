@@ -8,16 +8,40 @@
   </head>
   <body>
     <main>
-      <header>
-        <section><h1>The HiCoders welcomes you!</h1></section>
-        <p>
-          We are experienced software engineers. We volutarily help people who
-          are interested in IT and run various courses for this purpose. If you
-          are interested our courses, do not hesitate to contact us!
-        </p>
+      <header
+        id="headerwelcome"
+        style="
+          margin-right: 20%;
+          margin-left: 20%;
+          background-color: #f0f0f0;
+          margin-bottom: 10px;
+          padding-top: 2px;
+          padding-bottom: 2px;
+        "
+      >
+        <!--The beginning of the contact page-->
+        <section style="margin-left: 25%; margin-right: 25%">
+          <h1>The HiCoders welcomes you!</h1>
+          <p>
+            We are experienced software engineers. We volutarily help people who
+            are interested in IT and run various courses for this purpose. If
+            you are interested our courses, do not hesitate to contact us!
+          </p>
+        </section>
       </header>
-      <div>
-        <fieldset>
+      <div
+        id="personal-information"
+        style="
+          margin-left: 20%;
+          margin-right: 20%;
+          background-color: #f0f0f0;
+          margin-bottom: 10px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+        "
+      >
+        <!--Personal information part of the form-->
+        <fieldset style="margin-right: 25%; margin-left: 25%">
           <legend>Personal Information</legend>
           <form id="forminfo" action="">
             <label for="firstname">Firstname</label><br />
@@ -63,7 +87,7 @@
             <textarea
               name="expectation"
               id="expect"
-              cols="70"
+              cols="60"
               rows="10"
             ></textarea
             ><br /><br />
@@ -72,15 +96,26 @@
             <textarea
               name="programming"
               id="program"
-              cols="70"
+              cols="60"
               rows="10"
             ></textarea
             ><br />
           </form>
         </fieldset>
       </div>
-      <div id="marriege">
-        <fieldset>
+      <div
+        id="family-members"
+        style="
+          margin-left: 20%;
+          margin-right: 20%;
+          background-color: #f0f0f0;
+          margin-bottom: 10px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+        "
+      >
+        <!--Family information part of the form-->
+        <fieldset style="margin-right: 25%; margin-left: 25%">
           <legend>Family Members</legend>
           <label for="lastname">Are you married?</label><br />
           <input type="radio" class="marry" name="married" />Yes<br />
@@ -95,8 +130,19 @@
           />
         </fieldset>
       </div>
-      <div>
-        <fieldset>
+      <div
+        id="confandappl"
+        style="
+          margin-left: 20%;
+          margin-right: 20%;
+          background-color: #f0f0f0;
+          margin-bottom: 10px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+        "
+      >
+        <!--Confirmation and Application part of the form-->
+        <fieldset style="margin-right: 25%; margin-left: 25%">
           <legend>Confirmation and Application</legend>
           <label for="lastname">Which ones are you familiar with?</label><br />
           <div>
@@ -116,6 +162,16 @@
           <button type="submit" id="btnsubmit">submit</button>
         </fieldset>
       </div>
+      <footer>
+        <div>
+          <div>
+            <section></section>
+          </div>
+          <div>
+            <section></section>
+          </div>
+        </div>
+      </footer>
     </main>
   </body>
 </html>
